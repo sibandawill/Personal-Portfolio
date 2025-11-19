@@ -62,7 +62,7 @@ body {
           font-weight: normal;
           font-size: 17px;
         }
-        #name {
+        .name {
           text-align: center;
         }
         .column {
@@ -106,8 +106,8 @@ body {
         margin: 0;
         
       }
-      
     ul {
   list-style-type: circle;
 }
+
 
