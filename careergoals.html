@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="William Sibanda">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William Sibanda's Career Goals</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="William Sibanda">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>William Sibanda's Career Goals</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
 
-<body>
+    <body>
 
-    <header class="careergoals">
-        <h1>William Sibanda's Career Goals</h1>
-    </header>
+        <header class="careergoals">
+            <h1>William Sibanda's Career Goals</h1>
+        </header>
 
-    <nav>
-        <a href="index.html">Résumé</a>
-        <a href="coverletter.html">Cover Letter</a>
-        <a href="careergoals.html">Career Goals</a>
-    </nav>
+        <nav>
+            <a href="index.html">Résumé</a>
+            <a href="coverletter.html">Cover Letter</a>
+            <a href="careergoals.html">Career Goals</a>
+        </nav>
 
-    <main>
+        <main>
 
         <section>
             <h2>Short-Term Goals</h2>
@@ -45,13 +45,48 @@
             </p>
         </section>
 
-        
+        <section>
+            <h2>Portfolio Media</h2>
+            <img src="portrait.jpg" alt="Portrait" width="240">
+            <audio controls>
+                <source src="audio.mp3" type="audio/mp3">
+            </audio>
+            <video width="480" controls>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post" novalidate>
+                <label>First Name<input type="text" name="first_name" required></label>
+                <label>Last Name<input type="text" name="last_name" required></label>
+                <label>Company Name<input type="text" name="company_name"></label>
+                <label>Email<input type="email" name="email" required></label>
+                <label>Phone<input type="tel" name="phone" required></label>
+                <label>Message<textarea name="message" rows="5" required></textarea></label>
+                <fieldset>
+                    <legend>Best Contact Time</legend>
+                <label><input type="radio" name="best_time" value="am"> a.m.</label>
+                <label><input type="radio" name="best_time" value="pm"> p.m.</label>
+                <label><input type="radio" name="best_time" value="anytime"> anytime</label>
+                </fieldset>
+                <label>Preferred Contact Method
+                <select name="contact_method" required>
+                <option value="">-- Choose --</option>
+                <option value="phone">Phone</option>
+                <option value="email">Email</option>
+                <option value="text">Text</option>
+                </select>
+                </label>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
 
     </main>
 
-    <footer>© 2025 William Sibanda</a></footer>
+        <footer>2025 William Sibanda</footer>
 
-</body>
-
+    </body>
 </html>
 
