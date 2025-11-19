@@ -10,11 +10,13 @@ body {
             color: white;
             padding: 10px 0;
             text-align: center;
+            
         }
         
         nav {
             background-color: #333;
             overflow: hidden;
+            border: 2px solid black;
         }
         
         nav a {
@@ -49,6 +51,7 @@ body {
             text-align: center;
             padding: 10px 0;
             margin-top: 20px;
+            border: 2px solid black;
         }
         
         li {
@@ -78,6 +81,7 @@ body {
             color: white;
             padding: 10px 0;
             text-align: center;
+            
         }
         .careergoals {
             background-color: #87CEEB;
@@ -85,3 +89,24 @@ body {
             padding: 10px 0;
             text-align: center;
         }
+        p{
+          font-size: 15px;
+          font-weight: normal
+        }
+        h2 a:visited {
+          color: purple;
+        
+        }
+        footer a:visited {
+          color: purple;
+        
+        }
+        
+      * {
+        margin: 0;
+        
+      }
+    ul {
+  list-style-type: circle;
+}
+
